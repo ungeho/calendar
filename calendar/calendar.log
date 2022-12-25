@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2018.10.14)  25 DEC 2022 12:25
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2018.10.14)  25 DEC 2022 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./calender.tex
-(./calender.tex
+**./calendar.tex
+(./calendar.tex
 pLaTeX2e <2016/11/29> (based on LaTeX2e <2016/03/31> patch level 3)
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (c:/texlive/2016/texmf-dist/tex/platex/jsclasses/jsarticle.cls
@@ -89,8 +89,9 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \NC@list=\toks17
 \extratabsurround=\skip44
 \backup@length=\skip45
-) (./calender.aux)
-\openout1 = `calender.aux'.
+)
+No file calendar.aux.
+\openout1 = `calendar.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -108,7 +109,6 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -2114,14 +2114,14 @@ Overfull \hbox (2.55267pt too wide) in paragraph at lines 364--380
 [][] 
  []
 
-[12] (./calender.aux) ) 
+[12] (./calendar.aux) ) 
 Here is how much of TeX's memory you used:
- 1003 strings out of 493683
- 12767 string characters out of 6152641
+ 1001 strings out of 493683
+ 12741 string characters out of 6152641
  82983 words of memory out of 5000000
  4624 multiletter control sequences out of 15000+600000
  10303 words of font info for 47 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  23i,10n,19p,303b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on calender.dvi (12 pages, 23404 bytes).
+Output written on calendar.dvi (12 pages, 23404 bytes).

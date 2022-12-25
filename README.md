@@ -1,3 +1,5 @@
-西暦を入力するとその年のカレンダーのlatexのソースが出来る
+ganerate_calendar.pyを起動して西暦を入力すると
+
+その年のカレンダーのlatexのソースが出来る
 
 texのコンパイルは pLaTeX(ptex2pdf)

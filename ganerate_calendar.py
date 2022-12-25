@@ -1,4 +1,6 @@
 import codecs
+import os
+
 
 def input_AD():
     while(True):
@@ -81,8 +83,13 @@ def calendar(year):
 
 
 
-def ganerate_calender(year):
-    path = "./calender.tex"
+def ganerate_calendar(year):
+    path = "./calendar/calendar.tex"
+
+    # フォルダが無ければ作成
+    if not os.path.exists('calendar'):
+        os.mkdir('calendar')
+
     # ファイルを開く（上書き）
     f = codecs.open(path,"w","utf-8")
 
@@ -108,7 +115,7 @@ def ganerate_calender(year):
     f.close()
 
 def main():
-    ganerate_calender(input_AD())
+    ganerate_calendar(input_AD())
 
 
 if __name__ == "__main__":
