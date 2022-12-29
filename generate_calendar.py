@@ -57,8 +57,6 @@ def week_of_day_str(color):
         w_str += week_name[i]
     w_str += "\\\\\n"
 
-    # w_str += "\\large Sunday&\\large Monday &\\large Tuesday&\\large Wednesday&\\large Thursday&\\large Friday&\\large Saturday\\\\\n"
-
     w_str += "\\hline\n"
     w_str += "\\end{tabular}\n"
     w_str += "\\endgroup\n\n"
