@@ -15,10 +15,13 @@ def setting_sun_color():
         print("1...日曜日（Sunday）の曜日名と日付を黒にする\n")
         print("2...日曜日（Sunday）の曜日名を赤、日付を黒にする\n")
         print("3...日曜日（Sunday）の曜日名と日付を赤にする\n")
+        print("4...日曜日（Sunday）の曜日名を赤、土曜日（Saturday）の曜日名を青、日付を黒にする\n")
+        print("5...日曜日（Sunday）の曜日名と日付を赤、土曜日（Saturday）の曜日名と日付を青にする\n")
+
         color = input("日曜日の色を数字で指定してください：")
         if(color.isdigit()):
             clr_set = int(color)
-            if (clr_set >= 1) and (clr_set <= 3):
+            if (clr_set >= 1) and (clr_set <= 5):
                 break
     return clr_set
 
@@ -44,8 +47,11 @@ def week_of_day_str(color):
     for i in range(7):
         week_name[i] = "\\large " + week_name[i]
 
-    if color == 2 or color == 3:
+    if color == 2 or color == 3 or color == 4 or color == 5:
         week_name[0] = "\\textcolor{red}{" + week_name[0] + "}"
+    if color == 4 or color == 5:
+        week_name[6] = "\\textcolor{blue}{" + week_name[6] + "}"
+
 
     w_str = "\\begingroup\n"
     w_str += "\\renewcommand{\\arraystretch}{1.4}\n"
@@ -84,8 +90,15 @@ def calendar(year,color):
 
         day_str = []
         for day in range(1,month_date[month - 1] + 1):
-            if (color == 3) and (ZellersCongruence(year,month,day) == 0):
-                day_str.append("\\textcolor{red}{\\LBF{"+ str(day) +"}}}")
+            zc = ZellersCongruence(year,month,day)
+            # 曜日の日付塗りつぶし設定
+            if (((color == 3) or (color == 5)) and zc == 0) or (color == 5 and zc == 6):
+                # 日曜日
+                if zc == 0:
+                    day_str.append("\\textcolor{red}{\\LBF{"+ str(day) +"}}}")
+                # 土曜日 zc == 6
+                else :
+                    day_str.append("\\textcolor{blue}{\\LBF{"+ str(day) +"}}}")
             else:
                 day_str.append("\\LBF{"+ str(day) +"}}")
         for day in range(1,month_date[month - 1] + 1):
