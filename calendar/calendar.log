@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2018.10.14)  30 DEC 2022 12:25
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2018.10.14)  30 DEC 2022 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -132,14 +132,14 @@ LaTeX Font Info:    ... okay on input line 11.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape includefoot 
 * h-part:(L,W,R)=(56.9055pt, 731.23584pt, 56.9055pt)
-* v-part:(T,H,B)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 512.14963pt, 28.45274pt)
 * \paperwidth=845.04684pt
 * \paperheight=597.50787pt
 * \textwidth=731.23584pt
-* \textheight=520.48064pt
+* \textheight=492.02788pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-71.17827pt
+* \topmargin=-42.72551pt
 * \headheight=20.0pt
 * \headsep=7.36102pt
 * \topskip=12.76073pt
@@ -2149,7 +2149,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  1300 strings out of 493683
  17254 string characters out of 6152641
- 85694 words of memory out of 5000000
+ 85693 words of memory out of 5000000
  4908 multiletter control sequences out of 15000+600000
  11463 words of font info for 53 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191

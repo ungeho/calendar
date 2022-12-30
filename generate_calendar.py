@@ -1781,7 +1781,7 @@ def ganerate_calendar(year,color):
 
     str =  "\\documentclass[a4paper,landscape]{jsarticle}\n"
     str += "\n"
-    str += "\\usepackage[top=1cm , bottom = 1cm , left = 2cm , right = 2cm , includefoot]{geometry}\n"
+    str += "\\usepackage[top=2cm , bottom = 1cm , left = 2cm , right = 2cm , includefoot]{geometry}\n"
     str += "\\usepackage{array}\n"
     if color != 1:
         str += "\\usepackage{color}\n"
