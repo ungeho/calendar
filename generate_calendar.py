@@ -18,7 +18,7 @@ def setting_sun_color():
         print("4...日曜日（Sunday）の曜日名を赤、土曜日（Saturday）の曜日名を青、日付を黒にする\n")
         print("5...日曜日（Sunday）の曜日名と日付を赤、土曜日（Saturday）の曜日名と日付を青にする\n")
 
-        color = input("日曜日の色を数字で指定してください：")
+        color = input("曜日の色を数字で指定してください：")
         if(color.isdigit()):
             clr_set = int(color)
             if (clr_set >= 1) and (clr_set <= 5):
